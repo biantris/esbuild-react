@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scripts":{
+  "type": "module",
+  "scripts": {
     "es": "node -r esbuild-register",
     "build": "esbuild src/app.tsx --bundle --minify --sourcemap --outfile=public/bundle.js",
-    "start": "yarn es ./public/index.html"
+    "start": "node esbuild.config.js -w"
   },
   "devDependencies": {
     "@types/react": "^17.0.34",
@@ -16,6 +17,7 @@
     "typescript": "^4.4.4"
   },
   "dependencies": {
+    "esbuild-serve": "^1.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   }
