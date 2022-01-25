@@ -28,6 +28,11 @@
   resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
   integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
 
+create-serve@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/create-serve/-/create-serve-1.0.1.tgz#a52ec4cbd2d0f776d3e42338fa1f0dae69080c59"
+  integrity sha512-cDAmBGhkwolS7ihq7SnPE8KwjYUZl5FaI9Pq5ZBwNelSKvFR9OoAA4/B5BfB/NC+eYaykBpX9RVMfuU4DHtrPw==
+
 csstype@^3.0.2:
   version "3.0.9"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.9.tgz#6410af31b26bd0520933d02cbc64fce9ce3fbf0b"
@@ -105,6 +110,14 @@ esbuild-register@^3.0.0:
   dependencies:
     jsonc-parser "^3.0.0"
 
+esbuild-serve@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/esbuild-serve/-/esbuild-serve-1.0.1.tgz#c388c8ff184477ec6b6278d615da8d3177e5174f"
+  integrity sha512-VvYDThNuwg+YAuZC+RqAgw9TpEVGoDdcvm2mTL0lU+TxDXr+QGZfJ+zc6m7cXeJ940qijvdTSZl3mQbRGN4/PA==
+  dependencies:
+    create-serve "^1.0.1"
+    esbuild "^0.9.0"
+
 esbuild-sunos-64@0.13.13:
   version "0.13.13"
   resolved "https://registry.yarnpkg.com/esbuild-sunos-64/-/esbuild-sunos-64-0.13.13.tgz#ac9ead8287379cd2f6d00bd38c5997fda9c1179e"
@@ -147,6 +160,11 @@ esbuild@^0.13.13:
     esbuild-windows-32 "0.13.13"
     esbuild-windows-64 "0.13.13"
     esbuild-windows-arm64 "0.13.13"
+
+esbuild@^0.9.0:
+  version "0.9.7"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.9.7.tgz#ea0d639cbe4b88ec25fbed4d6ff00c8d788ef70b"
+  integrity sha512-VtUf6aQ89VTmMLKrWHYG50uByMF4JQlVysb8dmg6cOgW8JnFCipmz7p+HNBl+RR3LLCuBxFGVauAe2wfnF9bLg==
 
 "js-tokens@^3.0.0 || ^4.0.0":
   version "4.0.0"
