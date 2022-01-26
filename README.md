@@ -1,15 +1,18 @@
 # esbuild-react
-### Project with Esbuild + React + TypeScript
+## Project with Esbuild + React + TypeScript
 
-### Steps
+## How to run the project
 
 ```bash
 yarn install
 #or
 yarn
-# and
+#and
 yarn build
 yarn start
 ```
 
 Open localhost:7000
+
+## contributions
+Feel free to contribute to this project, if you find any bugs or improvements, open an issue and send a PR about it \o/
