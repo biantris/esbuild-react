@@ -4,12 +4,13 @@
 ## How to run the project
 
 ```bash
-yarn install
+$ yarn install
 #or
-yarn
+$ yarn
 #and
-yarn build
-yarn start
+$ yarn build
+#and
+$ yarn start
 ```
 
 Open localhost:7000
