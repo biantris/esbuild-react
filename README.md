@@ -1,4 +1,4 @@
-# ⚡️⚛️ esbuild-react
+# ⏩⚛️ esbuild-react
 
 - Setup with Esbuild + React + TypeScript
 
