@@ -1,7 +1,8 @@
-# esbuild-react
-## Project with Esbuild + React + TypeScript
+# ⚡️⚛️ esbuild-react
 
-## How to run the project
+- Setup with Esbuild + React + TypeScript
+
+### How to run the project
 
 ```bash
 $ yarn install
